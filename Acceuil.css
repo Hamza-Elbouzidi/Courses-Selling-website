@@ -1,0 +1,67 @@
+input {
+ 
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        border: none;
+      }
+
+      #fieldset{
+      background-color: rgba(121, 121, 121, 0.8);
+      border-radius: 5%;
+      width: 50%;
+      border-width: 20%;
+      font-family:  sans-serif ;
+      
+     }
+
+body {
+  /* background-color: rgb(21, 174, 194);*/
+  background-image: url(./image/gifbackground.gif);
+}
+
+.con  {
+  
+  display: flex;
+  justify-content: center;
+ }
+
+
+#container {
+  display: flex;
+  justify-content: right;
+ 
+}
+
+#img {
+  margin-top: 15%;
+  width: 100px;
+  margin-right: 600px;
+
+}
+
+#butt {
+border-radius: 10px;
+transition-duration: 0.4s;
+
+}
+
+
+#butt:hover {
+  background-color: #02131b;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+
+html {
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
